@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset (do not commit RadioML data)
+data/*
+!data/README.md
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Training artifacts and generated outputs
+*.pt
+*.pth
+amc_outputs/
+amc_outputs.zip
